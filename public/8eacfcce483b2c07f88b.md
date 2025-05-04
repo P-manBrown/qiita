@@ -1,0 +1,130 @@
+---
+title: 【Markdown】文章を折りたたむ方法
+tags:
+  - Markdown
+  - 初学者
+private: false
+updated_at: '2023-03-23T23:57:59+09:00'
+id: 8eacfcce483b2c07f88b
+organization_url_name: null
+slide: false
+ignorePublish: false
+---
+
+## 記述方法
+
+Markdownでは以下のように記述することで文章を折りたためます。
+
+```markdown :sample.md
+<details>
+  <summary>見出し（クリックすると以下の文章が展開される）</summary>
+
+  折りたたまれる内容
+</details>
+```
+
+## 注意事項
+
+`<summary></summary>`の後に空行を挿入しないとスタイルが適用されません。
+
+````markdown :sample.md
+<details>
+  <summary>空行なし(クリックしてください)</summary>
+  ### Heading
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+      
+  ### Some Code
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+</details>
+````
+
+上記のように空行を挿入しないと以下のようになります。
+<details>
+  <summary>空行なし(クリックしてください)</summary>
+  ### Heading
+  1. Foo
+  2. Bar
+     *Baz
+     * Qux
+  ### Some Code
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+</details>
+
+````markdown :sample.md
+<details>
+  <summary>空行あり(クリックしてください)</summary>
+  
+  ### Heading
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+  
+  ### Some Code
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+</details>
+````
+
+空行を挿入した場合には以下のように表示されます。
+<details>
+  <summary>空行あり(クリックしてください)</summary>
+  
+  ### Heading
+
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+  
+  ### Some Code
+
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+
+</details>
+
+## デフォルトで展開
+
+`<details open>`と記述するとデフォルトで展開された状態にできます。
+
+````markdown :sample.md
+<details open>
+  <summary>デフォルトで展開</summary>
+  
+  ### Sample
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+  
+  ### Sample Code
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+</details>
+````
+
+Qiitaでは展開されなかったので画像を添付します。
+
+![IMG_778734B79E74-1.jpeg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2342443/2ed5e79a-dd5b-5660-cfc2-293fae89d99b.jpeg)
+

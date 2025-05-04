@@ -1,0 +1,53 @@
+---
+title: 【GitHub】テンプレートリポジトリを作成する方法
+tags:
+  - Git
+  - GitHub
+  - 初学者
+private: false
+updated_at: '2023-02-21T23:53:01+09:00'
+id: bdb5eeac312d0c8b77e2
+organization_url_name: null
+slide: false
+ignorePublish: false
+---
+## 作成方法
+通常どおりリポジトリを準備します。
+
+作成したリポジトリのページを開き、「Settings」をクリックします。
+「Template repository」にチェックを入れます。
+
+![スクリーンショット 2022-09-10 15.29.30.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2342443/a97d11ba-fc78-1125-9bf9-eb786ce43f83.png)
+
+これでテンプレートリポジトリが作成できました。
+
+## 使用方法
+テンプレートリポジトリを使用して新規リポジトリを作成するには以下の2つの方法があります。
+
+- テンプレートリポジトリのページから作成
+- 「New repository」から作成
+
+### テンプレートリポジトリから作成
+テンプレートリポジトリのページを開き、画面右上にある「Use this template」を選択します。
+![スクリーンショット 2022-09-10 15.36.27.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2342443/5d694747-2c23-8a4e-023a-43f90ccf4603.png)
+
+
+すると以下の画面になりますので通常どおりリポジトリ名などを入力してリポジトリを作成します。
+![スクリーンショット 2022-09-10 15.47.25.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2342443/fabc900e-12bb-a610-38b3-be3a560ab968.png)
+
+するとテンプレートリポジトリの内容が`Initial commit`された状態のリポジトリが作成されます。
+
+![スクリーンショット 2022-09-10 15.55.49.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2342443/95bd1ff8-c07c-c140-0931-ba1df2fd2a56.png)
+
+
+### 「New repository」から作成する
+
+通常どおり「New repository」から作成するには「Create a new repository」の画面の「Repository template」の項目でテンプレートリポジトリを選択します。
+すると選択したテンプレートリポジトリの内容が`Initial commit`されたリポジトリが作成されます。
+
+![スクリーンショット 2022-09-10 15.54.39.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2342443/e5712333-7380-2274-6735-6f274629dccf.png)
+
+![スクリーンショット 2022-09-10 15.55.49.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2342443/95bd1ff8-c07c-c140-0931-ba1df2fd2a56.png)
+
+
+

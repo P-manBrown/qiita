@@ -1,0 +1,43 @@
+---
+title: 【VSCode】簡単にスニペットを作成する方法
+tags:
+  - VSCode
+private: false
+updated_at: '2024-06-23T00:16:38+09:00'
+id: 7193b3bdbe9f5bebc5b9
+organization_url_name: null
+slide: false
+ignorePublish: false
+---
+Snippet Generatorという拡張機能を使用すると簡単にスニペットを作成できます。
+
+https://marketplace.visualstudio.com/items?itemName=wenfangdu.snippet-generator
+
+![スクリーンショット 2024-06-22 23.57.06.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2342443/1e0b64a1-b4d7-43a9-bbd2-74217ec89703.png)
+
+スニペットを作成したいコードを選択してコマンドパレットから`Generate Snippet`を実行し、必要事項を入力するとスニペットを設定するためのオブジェクトがクリップボードに保存されます。
+
+`Snippets Configure User Snippets`を実行します。
+
+![スクリーンショット 2024-06-23 0.01.28.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2342443/cccfb97c-6f77-ce0e-3f96-f49b1fc78078.png)
+
+
+開いた設定ファイルにクリップボードの内容を貼り付けるとスニペットを使用できるようになります。
+
+以下のようにショートカットキーを設定すると`Generate Snippet`の必要事項を入力した後に`Snippets Configure User Snippets`が実行されファイル選択できるようになり、より簡単に作成できます。
+
+```jsonc:keybindings.json
+{
+  {
+    "key": "任意のキー",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "snippet-generator.generate-snippet",
+        "workbench.action.openSnippets"
+      ]
+    }
+  }
+}
+
+```

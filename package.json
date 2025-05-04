@@ -1,0 +1,16 @@
+{
+  "name": "qiita",
+  "scripts": {
+    "version": "qiita version",
+    "update": "npm install @qiita/qiita-cli@latest",
+    "init": "qiita init",
+    "login": "qiita login",
+    "preview": "qiita preview",
+    "new": "qiita new",
+    "publish": "qiita publish --all",
+    "pull": "qiita pull"
+  },
+  "devDependencies": {
+    "@qiita/qiita-cli": "^1.6.2"
+  }
+}

@@ -1,0 +1,26 @@
+---
+title: 【GitHub】Packageを削除する方法
+tags:
+  - Git
+  - GitHub
+  - 初学者
+private: false
+updated_at: '2023-03-29T22:07:42+09:00'
+id: abf83a50de69cc93d3bb
+organization_url_name: null
+slide: false
+ignorePublish: false
+---
+## パッケージを削除する方法
+パッケージは以下の手順で削除します。
+
+リポジトリの「Code」の画面右下「Packages」欄のパッケージ名をクリックします。
+![スクリーンショット 2022-09-30 18.18.36.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2342443/fe046150-2e92-8fd2-03af-b04ee50c2a99.png)
+
+するとインストール方法などが記載されたページが開きます。
+このページ右下の「Package settings」をクリックします。
+![スクリーンショット 2022-09-30 18.19.07.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2342443/63a3719f-3c28-2603-a07e-326b7123fe45.png)
+
+開いたページ赤枠内の「Delete this package」をクリックし削除します。
+![スクリーンショット 2022-09-30 18.19.20.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2342443/17fdf4de-44f5-e935-45b8-cf8d8ddfb470.png)
+

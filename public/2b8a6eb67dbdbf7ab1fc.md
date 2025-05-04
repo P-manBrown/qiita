@@ -1,0 +1,101 @@
+---
+title: 【Git】GitHub CLIの補完を有効にする方法
+tags:
+  - Git
+  - GitHub
+  - 初学者
+  - GithubCLI
+private: false
+updated_at: '2023-02-20T23:53:43+09:00'
+id: 2b8a6eb67dbdbf7ab1fc
+organization_url_name: null
+slide: false
+ignorePublish: false
+---
+## Homebrewでインストールしている場合
+GitHub CLIをHomebrewでインストールしている場合には以下のページの手順に沿って設定を行います。
+
+https://docs.brew.sh/Shell-Completion
+
+zshの場合には以下を`~/.zshrc`に記述します。
+
+```~/.zshrc
+if type brew &>/dev/null
+then
+  FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+
+  autoload -Uz compinit
+  compinit
+fi
+```
+
+これでコマンドの補完ができるようになります。
+
+`gh `を入力してタブを入力すると以下のように表示されます。
+
+```zsh:zsh
+$ gh
+alias       -- Create command shortcuts
+api         -- Make an authenticated GitHub API request
+auth        -- Authenticate gh and git with GitHub
+browse      -- Open the repository in the browser
+co          -- Alias for pr checkout
+codespace   -- Connect to and manage codespaces
+completion  -- Generate shell completion scripts
+config      -- Manage configuration for gh
+extension   -- Manage gh extensions
+gist        -- Manage gists
+gpg-key     -- Manage GPG keys
+help        -- Help about any command
+issue       -- Manage issues
+label       -- Manage labels
+pr          -- Manage pull requests
+release     -- Manage releases
+repo        -- Manage repositories
+run         -- View details about workflow runs
+search      -- Search for repositories, issues, and pull requests
+secret      -- Manage GitHub secrets
+ssh-key     -- Manage SSH keys
+status      -- Print information about relevant issues, pull requests, and notifications across
+workflow    -- View details about GitHub Actions workflows
+```
+
+## Bashの場合
+bashの場合にはbash-completionをイントールする必要があります。
+
+https://github.com/scop/bash-completion
+
+bash-completionのインストール後に以下を`~/.bash_profile`または`~/.bashrc`に記述します。
+
+```~/.bashrc
+eval "$(gh completion -s bash)"
+```
+
+`gh `を入力してタブを入力すると以下のように表示されます。
+
+```bash:bash
+$ gh 
+alias       (Create command shortcuts)
+api         (Make an authenticated GitHub API request)
+auth        (Authenticate gh and git with GitHub)
+browse      (Open the repository in the browser)
+co          (Alias for pr checkout)
+codespace   (Connect to and manage codespaces)
+completion  (Generate shell completion scripts)
+config      (Manage configuration for gh)
+extension   (Manage gh extensions)
+gist        (Manage gists)
+gpg-key     (Manage GPG keys)
+help        (Help about any command)
+issue       (Manage issues)
+label       (Manage labels)
+pr          (Manage pull requests)
+release     (Manage releases)
+repo        (Manage repositories)
+run         (View details about workflow runs)
+search      (Search for repositories, issues, and pull requests)
+secret      (Manage GitHub secrets)
+ssh-key     (Manage SSH keys)
+status      (Print information about relevant issues, pull requests, and notifications across repositories)
+workflow    (View details about GitHub Actions workflows)
+```
