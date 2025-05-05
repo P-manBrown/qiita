@@ -1,10 +1,10 @@
 ---
 title: 【Mac】コマンドでシステム設定の特定のパネルを開く方法
 tags:
-  - 'Mac'
+  - Mac
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-05-05T22:33:45+09:00'
+id: 5127f99807eb4803a27f
 organization_url_name: null
 slide: false
 ignorePublish: false
