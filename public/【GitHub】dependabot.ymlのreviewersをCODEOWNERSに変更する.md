@@ -1,0 +1,30 @@
+---
+title: 【GitHub】dependabot.ymlのreviewersをCODEOWNERSに変更する
+tags:
+  - 'GitHub'
+private: false
+updated_at: ''
+id: null
+organization_url_name: null
+slide: false
+ignorePublish: false
+---
+
+## `reviewers`の廃止
+
+`dependabot.yml`の`reviewers`は2025年5月27日火曜日に廃止されます。
+
+https://github.blog/changelog/2025-04-29-dependabot-reviewers-configuration-option-being-replaced-by-code-owners/
+
+そのため、代わりに`CODEOWNERS`ファイルを作成する必要があります。
+
+## `CODEOWNERS`ファイルの作成方法
+
+`.github`フォルダ内に`CODEOWNERS`ファイルを作成します。
+`CODEOWNERS`ファイルにパスと`@ユーザー名`を記述するとコードオーナーを設定でき、プルリクエストをオープンすると、自動的にレビューがリクエストされるようになります。
+
+```:CODEOWNERS
+*       @owner-name
+```
+廃止
+https://docs.github.com/ja/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners#about-code-owners
