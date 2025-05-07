@@ -1,7 +1,7 @@
 ---
 title: 【Mac】shutdownコマンドの使い方
 tags:
-  - ''
+  - 'Mac'
 private: false
 updated_at: ''
 id: null
