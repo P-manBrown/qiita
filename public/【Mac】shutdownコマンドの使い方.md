@@ -1,10 +1,10 @@
 ---
 title: 【Mac】shutdownコマンドの使い方
 tags:
-  - 'Mac'
+  - Mac
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-05-07T22:44:19+09:00'
+id: cf7580285da2d90106a4
 organization_url_name: null
 slide: false
 ignorePublish: false
