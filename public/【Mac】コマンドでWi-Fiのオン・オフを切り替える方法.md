@@ -1,10 +1,10 @@
 ---
 title: 【Mac】コマンドでWi-Fiのオン・オフを切り替える方法
 tags:
-  - 'Mac'
+  - Mac
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-05-11T23:51:55+09:00'
+id: 57e2f1abd9f758e65dc4
 organization_url_name: null
 slide: false
 ignorePublish: false
