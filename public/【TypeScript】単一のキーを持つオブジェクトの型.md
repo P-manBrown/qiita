@@ -1,10 +1,10 @@
 ---
 title: 【TypeScript】単一のキーを持つオブジェクトの型
 tags:
-  - 'typescript'
+  - TypeScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-05-12T23:51:27+09:00'
+id: 3e176f4e5635805ba107
 organization_url_name: null
 slide: false
 ignorePublish: false
