@@ -1,10 +1,10 @@
 ---
 title: 【CLI】awkコマンドの使い方
 tags:
-  - 'CLI'
+  - CLI
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-05-13T23:57:43+09:00'
+id: daf238ce4663d613a55b
 organization_url_name: null
 slide: false
 ignorePublish: false
