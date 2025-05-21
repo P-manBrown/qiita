@@ -1,10 +1,10 @@
 ---
 title: 【Mac】コマンドでOSをアップデートする方法
 tags:
-  - 'Mac'
+  - Mac
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-05-21T21:32:21+09:00'
+id: 451ec2e1f8115aa61bfc
 organization_url_name: null
 slide: false
 ignorePublish: false
