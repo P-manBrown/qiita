@@ -1,10 +1,10 @@
 ---
 title: 【TailwindCSS】ボタンにホバーした際のカーソルをpointerにする方法
 tags:
-  - 'tailwindcss'
+  - tailwindcss
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-05-19T23:00:14+09:00'
+id: ec727e293ecedd12277e
 organization_url_name: null
 slide: false
 ignorePublish: false
