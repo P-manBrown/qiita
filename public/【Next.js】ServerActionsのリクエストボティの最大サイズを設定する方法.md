@@ -1,10 +1,10 @@
 ---
 title: 【Next.js】ServerActionsのリクエストボティの最大サイズを設定する方法
 tags:
-  - 'nextjs'
+  - Next.js
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-05-23T22:20:04+09:00'
+id: ecffc603e6e3c7bd27a4
 organization_url_name: null
 slide: false
 ignorePublish: false
