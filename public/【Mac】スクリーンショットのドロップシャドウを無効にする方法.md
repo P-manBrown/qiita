@@ -1,10 +1,10 @@
 ---
 title: 【Mac】スクリーンショットのドロップシャドウを無効にする方法
 tags:
-  - 'Mac'
+  - Mac
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-05-26T23:54:47+09:00'
+id: 8c86bc97e4380100c177
 organization_url_name: null
 slide: false
 ignorePublish: false
