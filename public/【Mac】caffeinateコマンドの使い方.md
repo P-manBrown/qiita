@@ -1,10 +1,10 @@
 ---
 title: 【Mac】caffeinateコマンドの使い方
 tags:
-  - 'Mac'
+  - Mac
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-05-27T23:29:08+09:00'
+id: 59df74a97f28f9f06e1f
 organization_url_name: null
 slide: false
 ignorePublish: false
