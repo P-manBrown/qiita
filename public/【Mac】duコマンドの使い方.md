@@ -1,10 +1,10 @@
 ---
 title: 【Mac】duコマンドの使い方
 tags:
-  - 'Mac'
+  - Mac
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-05-30T23:47:59+09:00'
+id: e2b718b2d6264fa2cdb0
 organization_url_name: null
 slide: false
 ignorePublish: false
