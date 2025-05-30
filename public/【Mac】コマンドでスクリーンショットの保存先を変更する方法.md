@@ -1,10 +1,10 @@
 ---
 title: 【Mac】コマンドでスクリーンショットの保存先を変更する方法
 tags:
-  - 'Mac'
+  - Mac
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-05-29T23:22:57+09:00'
+id: cc2b2c01dd26f1f3e22b
 organization_url_name: null
 slide: false
 ignorePublish: false
