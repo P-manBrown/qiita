@@ -1,10 +1,10 @@
 ---
 title: 【Mac】dfコマンドの使い方
 tags:
-  - 'Mac'
+  - Mac
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-05-31T23:56:42+09:00'
+id: a3f8f5f77b7026ac2c96
 organization_url_name: null
 slide: false
 ignorePublish: false
