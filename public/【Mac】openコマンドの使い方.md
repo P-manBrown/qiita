@@ -1,10 +1,10 @@
 ---
 title: 【Mac】openコマンドの使い方
 tags:
-  - 'Mac'
+  - Mac
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-06-01T22:47:07+09:00'
+id: 54ae8c22b4ea406cc57c
 organization_url_name: null
 slide: false
 ignorePublish: false
