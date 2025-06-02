@@ -1,7 +1,7 @@
 ---
 title: 【git-spice】プルリクエストを作成した際にブラウザで表示する方法
 tags:
-  - ''
+  - 'git-spice'
 private: false
 updated_at: ''
 id: null
