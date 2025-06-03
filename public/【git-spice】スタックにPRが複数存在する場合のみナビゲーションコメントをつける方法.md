@@ -1,10 +1,10 @@
 ---
 title: 【git-spice】スタックにPRが複数存在する場合のみナビゲーションコメントをつける方法
 tags:
-  - 'git-spice'
+  - git-spice
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-06-03T21:24:08+09:00'
+id: 9d6025bfc9b072cb5b33
 organization_url_name: null
 slide: false
 ignorePublish: false
