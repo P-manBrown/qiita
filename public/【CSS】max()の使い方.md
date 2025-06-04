@@ -1,10 +1,10 @@
 ---
 title: 【CSS】max()の使い方
 tags:
-  - 'css'
+  - CSS
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-06-04T22:04:57+09:00'
+id: 2d11a6005516dac9cd3c
 organization_url_name: null
 slide: false
 ignorePublish: false
