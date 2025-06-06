@@ -1,10 +1,10 @@
 ---
 title: 【JavaScript】画面の幅によって処理を分ける方法
 tags:
-  - 'javascript'
+  - JavaScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-06-06T23:37:57+09:00'
+id: 7d0e5e1f49676ddcfa42
 organization_url_name: null
 slide: false
 ignorePublish: false
