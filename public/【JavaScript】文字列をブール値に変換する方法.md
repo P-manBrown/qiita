@@ -1,10 +1,10 @@
 ---
 title: 【JavaScript】文字列をブール値に変換する方法
 tags:
-  - 'javascript'
+  - JavaScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-06-07T22:45:58+09:00'
+id: f042cd98637c1b4e91f8
 organization_url_name: null
 slide: false
 ignorePublish: false
