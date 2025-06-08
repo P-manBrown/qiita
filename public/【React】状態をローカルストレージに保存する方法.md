@@ -1,10 +1,10 @@
 ---
 title: 【React】状態をローカルストレージに保存する方法
 tags:
-  - 'react'
+  - React
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-06-08T23:55:24+09:00'
+id: d543556585ef48d52db9
 organization_url_name: null
 slide: false
 ignorePublish: false
