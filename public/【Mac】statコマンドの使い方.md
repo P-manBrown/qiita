@@ -1,10 +1,10 @@
 ---
 title: 【Mac】statコマンドの使い方
 tags:
-  - 'Mac'
+  - Mac
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-06-10T22:03:48+09:00'
+id: 5ce8580c62fd26ef911e
 organization_url_name: null
 slide: false
 ignorePublish: false
