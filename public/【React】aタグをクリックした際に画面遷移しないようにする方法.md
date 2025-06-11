@@ -1,10 +1,10 @@
 ---
 title: 【React】aタグをクリックした際に画面遷移しないようにする方法
 tags:
-  - 'React'
+  - React
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-06-11T23:39:30+09:00'
+id: 06f2e5d790c3f78c867f
 organization_url_name: null
 slide: false
 ignorePublish: false
