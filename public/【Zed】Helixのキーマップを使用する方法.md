@@ -1,10 +1,10 @@
 ---
 title: 【Zed】Helixのキーマップを使用する方法
 tags:
-  - 'zed-editor'
+  - zed-editor
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-06-12T20:45:52+09:00'
+id: c7b956c3a3ba8419f457
 organization_url_name: null
 slide: false
 ignorePublish: false
