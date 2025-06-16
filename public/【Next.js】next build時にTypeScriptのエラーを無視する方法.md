@@ -1,10 +1,10 @@
 ---
 title: 【Next.js】next build時にTypeScriptのエラーを無視する方法
 tags:
-  - 'Next.js'
+  - Next.js
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-06-16T23:51:29+09:00'
+id: 1610b76050488eac7fe5
 organization_url_name: null
 slide: false
 ignorePublish: false
