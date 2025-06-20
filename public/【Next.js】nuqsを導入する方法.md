@@ -1,10 +1,10 @@
 ---
 title: 【Next.js】nuqsを導入する方法
 tags:
-  - 'Next.js'
+  - Next.js
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-06-20T23:55:39+09:00'
+id: 027aec0cd93a26caf87d
 organization_url_name: null
 slide: false
 ignorePublish: false
