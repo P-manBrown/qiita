@@ -1,10 +1,10 @@
 ---
 title: 【Mac】コマンドでQRコードを生成する方法
 tags:
-  - 'Mac'
+  - Mac
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-06-22T23:42:25+09:00'
+id: f9b74bbcb92f302627e0
 organization_url_name: null
 slide: false
 ignorePublish: false
