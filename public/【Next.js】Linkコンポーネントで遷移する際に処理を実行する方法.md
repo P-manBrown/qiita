@@ -1,10 +1,10 @@
 ---
 title: 【Next.js】Linkコンポーネントで遷移する際に処理を実行する方法
 tags:
-  - 'Next.js'
+  - Next.js
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-06-23T23:58:40+09:00'
+id: 9862da73e538681762a8
 organization_url_name: null
 slide: false
 ignorePublish: false
