@@ -1,10 +1,10 @@
 ---
 title: 【Mac】shortcutsコマンドの使い方
 tags:
-  - 'Mac'
+  - Mac
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-06-24T23:53:11+09:00'
+id: 00f2d9292fc2262f851a
 organization_url_name: null
 slide: false
 ignorePublish: false
