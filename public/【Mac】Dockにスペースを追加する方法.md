@@ -1,10 +1,10 @@
 ---
 title: 【Mac】Dockにスペースを追加する方法
 tags:
-  - 'Mac'
+  - Mac
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-06-25T22:56:28+09:00'
+id: eca4946cebe3c372dac4
 organization_url_name: null
 slide: false
 ignorePublish: false
