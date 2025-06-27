@@ -1,10 +1,10 @@
 ---
 title: 【Zed】ミニマップを表示する方法
 tags:
-  - 'ZedEditor'
+  - ZedEditor
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-06-27T23:58:45+09:00'
+id: c2592a602697313dc3ef
 organization_url_name: null
 slide: false
 ignorePublish: false
