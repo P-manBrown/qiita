@@ -1,10 +1,10 @@
 ---
 title: 【GitHub】gh-dashの使い方
 tags:
-  - 'GitHub'
+  - GitHub
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-06-28T23:53:36+09:00'
+id: e2446b15f4adca45d66d
 organization_url_name: null
 slide: false
 ignorePublish: false
