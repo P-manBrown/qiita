@@ -1,9 +1,9 @@
 ---
-title: 【GitHub】gh-dashの使い方
+title: 【CLI】gh-dashの導入方法
 tags:
-  - GitHub
+  - CLI
 private: false
-updated_at: '2025-06-28T23:53:36+09:00'
+updated_at: '2025-06-28T23:55:17+09:00'
 id: e2446b15f4adca45d66d
 organization_url_name: null
 slide: false

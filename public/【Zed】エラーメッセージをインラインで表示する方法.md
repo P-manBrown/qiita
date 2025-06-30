@@ -1,10 +1,10 @@
 ---
 title: 【Zed】エラーメッセージをインラインで表示する方法
 tags:
-  - 'ZedEditor'
+  - ZedEditor
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-06-29T23:35:43+09:00'
+id: fc5a5fd6ee6837e0891a
 organization_url_name: null
 slide: false
 ignorePublish: false
