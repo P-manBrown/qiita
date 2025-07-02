@@ -1,10 +1,10 @@
 ---
 title: 【Zed】エージェントの処理が完了した際に通知する方法
 tags:
-  - 'ZedEditor'
+  - ZedEditor
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-07-02T23:27:27+09:00'
+id: 5b46c8fc8c6c5cc21e6c
 organization_url_name: null
 slide: false
 ignorePublish: false
