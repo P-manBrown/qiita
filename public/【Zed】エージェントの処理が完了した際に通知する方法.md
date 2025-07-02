@@ -1,0 +1,37 @@
+---
+title: 【Zed】エージェントの処理が完了した際に通知する方法
+tags:
+  - 'ZedEditor'
+private: false
+updated_at: ''
+id: null
+organization_url_name: null
+slide: false
+ignorePublish: false
+---
+## 設定方法
+
+`settings.json`に以下を追記することで、エージェントの処理が完了した際にZedのウインドーにフォーカスがないと通知音が鳴るようになります。
+
+```jsonc
+{
+	"agent": {
+    "play_sound_when_agent_done": true
+  }
+}
+
+```
+
+以下を追記するとすべてのスクリーンの右上に通知が表示されるようになります。
+
+```jsonc
+}
+	"agent": {
+    "notify_when_agent_waiting": "all_screens"
+	}
+}
+```
+
+## 参考
+
+https://zed.dev/docs/ai/agent-panel#get-notified
