@@ -3,7 +3,7 @@ title: 【Zed】エージェントの処理が完了した際に通知す�
 tags:
   - ZedEditor
 private: false
-updated_at: '2025-07-02T23:27:27+09:00'
+updated_at: '2025-07-02T23:29:42+09:00'
 id: 5b46c8fc8c6c5cc21e6c
 organization_url_name: null
 slide: false
@@ -15,7 +15,7 @@ ignorePublish: false
 
 ```jsonc
 {
-	"agent": {
+  "agent": {
     "play_sound_when_agent_done": true
   }
 }
@@ -26,9 +26,9 @@ ignorePublish: false
 
 ```jsonc
 }
-	"agent": {
+  "agent": {
     "notify_when_agent_waiting": "all_screens"
-	}
+  }
 }
 ```
 
