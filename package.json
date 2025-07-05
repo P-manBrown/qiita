@@ -8,7 +8,7 @@
     "preview": "qiita preview",
     "new": "qiita new",
     "publish": "qiita publish --all",
-    "pull": "qiita pull --force"
+    "pull": "qiita pull"
   },
   "devDependencies": {
     "@qiita/qiita-cli": "^1.6.2"
