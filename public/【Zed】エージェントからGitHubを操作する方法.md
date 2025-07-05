@@ -1,10 +1,10 @@
 ---
 title: 【Zed】エージェントからGitHubを操作する方法
 tags:
-  - 'ZedEditor'
+  - ZedEditor
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-07-05T23:59:03+09:00'
+id: dd75fd400a1716279a87
 organization_url_name: null
 slide: false
 ignorePublish: false
