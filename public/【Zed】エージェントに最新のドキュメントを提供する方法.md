@@ -1,10 +1,10 @@
 ---
 title: 【Zed】エージェントに最新のドキュメントを提供する方法
 tags:
-  - 'ZedEditor'
+  - ZedEditor
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-07-08T23:57:40+09:00'
+id: 7828ce3b5e8253edfc9f
 organization_url_name: null
 slide: false
 ignorePublish: false
