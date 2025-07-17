@@ -1,10 +1,10 @@
 ---
 title: 【Git】二つ以上前のコミットに変更を追加する方法
 tags:
-  - 'Git'
+  - Git
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-07-17T23:51:34+09:00'
+id: 29345cdbdc7766c9ae58
 organization_url_name: null
 slide: false
 ignorePublish: false
