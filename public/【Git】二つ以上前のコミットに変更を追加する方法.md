@@ -3,21 +3,19 @@ title: 【Git】二つ以上前のコミットに変更を追加する方法
 tags:
   - Git
 private: false
-updated_at: '2025-07-17T23:51:34+09:00'
+updated_at: '2025-07-18T00:02:56+09:00'
 id: 29345cdbdc7766c9ae58
 organization_url_name: null
 slide: false
 ignorePublish: false
 ---
-インタラクティブリベースを使用した方法
-
 ## インタラクティブリベースを開始
 
 ```bash
 git rebase -i HEAD~n
 ```
 
-`n`は編集したいコミットを含む過去のコミット数です。例えば、3つ前のコミットを編集したい場合は：
+`n`は編集したいコミットを含む過去のコミット数です。例えば、三つ前のコミットを編集したい場合は
 
 ```bash
 git rebase -i HEAD~3
@@ -33,7 +31,7 @@ pick def5678 コミットメッセージ
 pick ghi9012 コミットメッセージ
 ```
 
-編集したいコミットの `pick` を `edit` に変更します：
+編集したいコミットの `pick` を `edit` に変更します。
 
 ```
 edit abc1234 コミットメッセージ
@@ -65,7 +63,7 @@ git rebase --continue
 
 ## 例
 
-3つ前のコミットに `README.md` を追加したい場合：
+三つ前のコミットに `README.md` を追加したい場合は
 
 ```bash
 # 1. インタラクティブリベースを開始
