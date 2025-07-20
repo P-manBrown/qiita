@@ -1,10 +1,10 @@
 ---
 title: 【Git】直前のコミットに変更を追加する方法
 tags:
-  - 'Git'
+  - Git
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-07-20T21:29:39+09:00'
+id: dba7d08b5ffa029df968
 organization_url_name: null
 slide: false
 ignorePublish: false
