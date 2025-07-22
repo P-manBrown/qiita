@@ -1,10 +1,10 @@
 ---
 title: 【Rails】pagyで１ページに表示するデータ数の上限を設定する方法
 tags:
-  - 'Rails'
+  - Rails
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-07-22T23:56:57+09:00'
+id: f0502eb9b74e9968638a
 organization_url_name: null
 slide: false
 ignorePublish: false
