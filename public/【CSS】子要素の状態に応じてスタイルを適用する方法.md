@@ -1,10 +1,10 @@
 ---
 title: 【CSS】子要素の状態に応じてスタイルを適用する方法
 tags:
-  - 'CSS'
+  - CSS
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-07-26T23:53:12+09:00'
+id: 9d31ca0afa5153d75614
 organization_url_name: null
 slide: false
 ignorePublish: false
