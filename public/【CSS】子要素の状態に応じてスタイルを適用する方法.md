@@ -3,7 +3,7 @@ title: 【CSS】子要素の状態に応じてスタイルを適用する方�
 tags:
   - CSS
 private: false
-updated_at: '2025-07-26T23:53:12+09:00'
+updated_at: '2025-07-26T23:54:35+09:00'
 id: 9d31ca0afa5153d75614
 organization_url_name: null
 slide: false
@@ -39,15 +39,14 @@ ignorePublish: false
 
 次に、子要素（例：`<button>`）にマウスオーバー（ホバー）している間、親要素 `div` の背景を青に変える例です。
 
-HTML:
-```html
+
+```html:html
 <div class="hover-container">
   <button>マウスオーバー</button>
 </div>
 ```
 
-CSS:
-```css
+```css:css
 /* デフォルトの親要素スタイル */
 .hover-container {
   background: white;
