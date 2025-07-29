@@ -1,10 +1,10 @@
 ---
 title: 【git-spice】ブランチを別のブランチの上に移動する方法
 tags:
-  - 'git-spice'
+  - git-spice
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-07-28T21:43:22+09:00'
+id: ba7c1237598fe22f0bd8
 organization_url_name: null
 slide: false
 ignorePublish: false
