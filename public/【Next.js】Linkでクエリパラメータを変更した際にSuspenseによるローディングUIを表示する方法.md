@@ -1,10 +1,10 @@
 ---
 title: 【Next.js】Linkでクエリパラメータを変更した際にSuspenseによるローディングUIを表示する方法
 tags:
-  - 'Next.js'
+  - Next.js
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-07-30T23:59:08+09:00'
+id: 08198131dd6290fede6a
 organization_url_name: null
 slide: false
 ignorePublish: false
