@@ -3,7 +3,7 @@ title: 【Next.js】Linkでクエリパラメータを変更した際にSu
 tags:
   - Next.js
 private: false
-updated_at: '2025-07-30T23:59:08+09:00'
+updated_at: '2025-07-31T23:45:48+09:00'
 id: 08198131dd6290fede6a
 organization_url_name: null
 slide: false
@@ -11,26 +11,19 @@ ignorePublish: false
 ---
 ## 問題
 
-Next.jsのApp Routerで`Link`コンポーネントを使用して同じパスのクエリーパラメーターのみを変更した場合、`Suspense`のfallbackや`loading.tsx`が表示されない問題があります。
+Next.jsのApp Routerで`Link`コンポーネントを使用して同じパスのクエリーパラメーターのみを変更した場合、`Suspense`の`fallback`が表示されません。
 
 ```tsx
-// このような遷移でローディングUIが表示されない
-<Link href="/search?q=react">React</Link>
-<Link href="/search?q=nextjs">Next.js</Link>
+<Link href={{ query: { name: 'test' }}}>
+  Sample
+</Link>
 ```
 
-## 原因
+## 解決策
 
-ReactのSuspenseコンポーネントは、同じキーを持つ場合にSuspense境界をリセットしません。Next.jsはクエリーパラメーターをSuspenseのキーに含めていないため、同じルートへの遷移時にローディング状態が表示されません。
+`Suspense`の`key`にクエリパラメータを渡すことで`fallback`が表示されるようになります。
 
-参考: [React Suspense ドキュメント](https://react.dev/reference/react/Suspense#resetting-suspense-boundaries-on-navigation)
-
-## 解決策: Suspenseにkeyを追加
-
-### 基本的な実装
-
-```tsx
-// page.tsx
+```tsx:page.tsx
 import { Suspense } from "react";
 import { DataComponent } from "./DataComponent";
 import { LoadingSkeleton } from "./LoadingSkeleton";
@@ -38,10 +31,9 @@ import { LoadingSkeleton } from "./LoadingSkeleton";
 export default function Page({ 
   searchParams 
 }: { 
-  searchParams?: Record<string, string | undefined> 
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }> 
 }) {
-  // searchParamsからキーを生成
-  const suspenseKey = `search=${searchParams?.search || ''}`;
+  const filters = (await searchParams).filters;
   
   return (
     <div>
@@ -49,39 +41,18 @@ export default function Page({
       
       {/* keyプロパティを追加してSuspense境界をリセット */}
       <Suspense 
-        key={suspenseKey}
+        key={filters}
         fallback={<LoadingSkeleton />}
       >
-        <DataComponent searchParams={searchParams} />
+        <DataComponent filters={filters} />
       </Suspense>
     </div>
   );
 }
 ```
 
-### 複数パラメーターの場合
+## 参考
 
-```tsx
-export default function Page({ searchParams }) {
-  // 複数のパラメーターを組み合わせてキーを作成
-  const suspenseKey = [
-    searchParams?.search,
-    searchParams?.category,
-    searchParams?.page
-  ].filter(Boolean).join('-');
+https://github.com/vercel/next.js/issues/53543
 
-  return (
-    <Suspense 
-      key={suspenseKey}
-      fallback={<LoadingSkeleton />}
-    >
-      <ProductList searchParams={searchParams} />
-    </Suspense>
-  );
-}
-```
-
-## 参考リンク
-
-- [GitHub Issue #53543](https://github.com/vercel/next.js/issues/53543)
-- [React Suspense Documentation](https://react.dev/reference/react/Suspense)
+https://react.dev/reference/react/Suspense#resetting-suspense-boundaries-on-navigation
