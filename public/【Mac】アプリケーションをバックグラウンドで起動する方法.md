@@ -1,10 +1,10 @@
 ---
 title: 【Mac】アプリケーションをバックグラウンドで起動する方法
 tags:
-  - 'Mac'
+  - Mac
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-08-01T23:53:36+09:00'
+id: 2187e72fa834e116520e
 organization_url_name: null
 slide: false
 ignorePublish: false
