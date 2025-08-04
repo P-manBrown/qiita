@@ -3,7 +3,7 @@ title: 【Git】エイリアスで非Gitコマンドを実行する方法
 tags:
   - Git
 private: false
-updated_at: '2025-08-02T23:27:25+09:00'
+updated_at: '2025-08-02T23:30:14+09:00'
 id: 97302706b716197bcae4
 organization_url_name: null
 slide: false
@@ -11,7 +11,7 @@ ignorePublish: false
 ---
 ## 設定方法
 
-Gitエイリアスで非Gitコマンドを実行するには、コマンドの先頭に`!`（エクスクラメーションマーク）を付けます。
+Gitエイリアスで非Gitコマンドを実行するには、コマンドの先頭に`!`を付けます。
 
 ### コマンドラインから設定
 
