@@ -1,10 +1,10 @@
 ---
 title: 【TailwindCSS】 Functional Utilities
 tags:
-  - 'TailwindCSS'
+  - tailwindcss
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-08-05T23:26:08+09:00'
+id: 136c39c4b2b8f1fc939e
 organization_url_name: null
 slide: false
 ignorePublish: false
