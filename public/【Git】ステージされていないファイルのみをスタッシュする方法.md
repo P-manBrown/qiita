@@ -1,10 +1,10 @@
 ---
 title: 【Git】ステージされていないファイルのみをスタッシュする方法
 tags:
-  - 'Git'
+  - Git
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-08-07T21:25:07+09:00'
+id: dc8d940360f29b1aa036
 organization_url_name: null
 slide: false
 ignorePublish: false
