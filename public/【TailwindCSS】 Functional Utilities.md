@@ -3,7 +3,7 @@ title: 【TailwindCSS】 Functional Utilities
 tags:
   - tailwindcss
 private: false
-updated_at: '2025-08-05T23:26:08+09:00'
+updated_at: '2025-08-05T23:27:46+09:00'
 id: 136c39c4b2b8f1fc939e
 organization_url_name: null
 slide: false
@@ -187,55 +187,6 @@ CSS `ratio`データ型を使用して分数を処理できます。
 <div class="aspect-16/9">16:9のアスペクト比</div>
 <div class="aspect-3/4">3:4のアスペクト比</div>
 <div class="aspect-[7/9]">カスタムアスペクト比</div>
-```
-
-## 実用的な応用例
-
-### 透明度ユーティリティ
-
-```css
-@theme {
-  --opacity-10: 0.1;
-  --opacity-50: 0.5;
-  --opacity-75: 0.75;
-}
-
-@utility opacity-* {
-  opacity: --value([percentage]);           /* opacity-[50%] */
-  opacity: calc(--value(integer) * 1%);     /* opacity-50 → 50% */
-  opacity: --value(--opacity-*);            /* opacity-50 → 0.5 */
-}
-```
-
-### グリッドユーティリティ
-
-```css
-@utility grid-cols-* {
-  grid-template-columns: repeat(--value(integer), minmax(0, 1fr));
-  grid-template-columns: --value([*]);
-}
-```
-
-**使用例：**
-```html
-<div class="grid grid-cols-3">3カラムグリッド</div>
-<div class="grid grid-cols-[200px_1fr_100px]">カスタムグリッド</div>
-```
-
-### カスタムスペーシング
-
-```css
-@theme {
-  --spacing-xs: 0.25rem;
-  --spacing-sm: 0.5rem;
-  --spacing-md: 1rem;
-  --spacing-lg: 2rem;
-}
-
-@utility gap-* {
-  gap: --value(--spacing-*, [length]);
-  gap: --spacing(--value(integer));
-}
 ```
 
 ## 参考

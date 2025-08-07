@@ -1,10 +1,10 @@
 ---
 title: 【git-spice】コミットを修正する方法
 tags:
-  - 'git-spice'
+  - git-spice
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-08-06T22:55:03+09:00'
+id: 2f4eca5c88043b59f30b
 organization_url_name: null
 slide: false
 ignorePublish: false
