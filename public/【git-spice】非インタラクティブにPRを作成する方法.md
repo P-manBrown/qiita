@@ -1,10 +1,10 @@
 ---
 title: 【git-spice】非インタラクティブにPRを作成する方法
 tags:
-  - 'git-spice'
+  - git-spice
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-08-08T22:27:02+09:00'
+id: e40e77bdefd86056e514
 organization_url_name: null
 slide: false
 ignorePublish: false
