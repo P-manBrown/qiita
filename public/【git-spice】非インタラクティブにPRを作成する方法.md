@@ -3,7 +3,7 @@ title: 【git-spice】非インタラクティブにPRを作成する方法
 tags:
   - git-spice
 private: false
-updated_at: '2025-08-08T22:27:02+09:00'
+updated_at: '2025-08-08T22:31:16+09:00'
 id: e40e77bdefd86056e514
 organization_url_name: null
 slide: false
@@ -18,6 +18,7 @@ gs stack submit --fill
 `--fill`フラグを使用すると、既存のコミットメッセージから自動的にPRのタイトルと本文を入力します。
 
 ### 例
+
 ```bash
 # 良いコミットメッセージの例
 git commit -m "Fix user login validation
@@ -41,6 +42,7 @@ gs branch submit \
 タイトルと本文を直接指定してPRを作成します。
 
 ### 例
+
 ```bash
 # 通常のPR作成
 gs branch submit \
@@ -58,3 +60,7 @@ gs branch submit \
     --body "Work in progress for user table schema updates" \
     --draft
 ```
+
+## 参考
+
+https://abhinav.github.io/git-spice/guide/cr/#non-interactive-submission
