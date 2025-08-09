@@ -1,10 +1,10 @@
 ---
 title: 【git-spice】ブランチ名を変更する方法
 tags:
-  - 'git-spice'
+  - git-spice
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-08-09T22:12:20+09:00'
+id: 21023e96c1bfbd2029f7
 organization_url_name: null
 slide: false
 ignorePublish: false
