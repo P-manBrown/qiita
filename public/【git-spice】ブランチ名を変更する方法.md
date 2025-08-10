@@ -3,7 +3,7 @@ title: 【git-spice】ブランチ名を変更する方法
 tags:
   - git-spice
 private: false
-updated_at: '2025-08-09T22:12:20+09:00'
+updated_at: '2025-08-09T22:13:15+09:00'
 id: 21023e96c1bfbd2029f7
 organization_url_name: null
 slide: false
@@ -28,7 +28,7 @@ gs branch rename feature-old feature-new
 
 ### 現在のブランチ名を変更
 
-現在チェックアウトしているブランチの名前を変更には以下のようにします。ｔ
+現在チェックアウトしているブランチの名前を変更には以下のようにします。
 
 ```bash
 gs branch rename <new-name>
