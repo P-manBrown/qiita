@@ -1,10 +1,10 @@
 ---
 title: 【Bruno】.env.localを環境変数として活用する方法
 tags:
-  - 'Bruno'
+  - Bruno
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-08-10T23:44:48+09:00'
+id: 74c2c26d2fdc0b9bbd78
 organization_url_name: null
 slide: false
 ignorePublish: false
