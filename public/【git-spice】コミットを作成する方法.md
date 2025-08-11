@@ -1,10 +1,10 @@
 ---
 title: 【git-spice】コミットを作成する方法
 tags:
-  - 'git-spice'
+  - git-spice
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-08-11T23:58:59+09:00'
+id: c78e782112e821863d9b
 organization_url_name: null
 slide: false
 ignorePublish: false
