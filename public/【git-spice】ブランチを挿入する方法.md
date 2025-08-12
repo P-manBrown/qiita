@@ -1,10 +1,10 @@
 ---
 title: 【git-spice】ブランチを挿入する方法
 tags:
-  - 'git-spice'
+  - git-spice
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-08-12T22:42:05+09:00'
+id: efc1493b32039612054d
 organization_url_name: null
 slide: false
 ignorePublish: false
