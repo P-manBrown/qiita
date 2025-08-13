@@ -3,7 +3,7 @@ title: 【git-spice】ブランチを挿入する方法
 tags:
   - git-spice
 private: false
-updated_at: '2025-08-12T22:42:05+09:00'
+updated_at: '2025-08-12T22:45:43+09:00'
 id: efc1493b32039612054d
 organization_url_name: null
 slide: false
@@ -38,7 +38,7 @@ trunk
 trunk
 ```
 
-新しいブランチXがAとBの間に挿入され、元々Aの上にあったブランチ（B、C）は新しいブランチXの上に移動します。
+新しいブランチXがAとBの間に挿入されます。
 
 ## --below オプション：ブランチをスタックの下に挿入
 
@@ -67,7 +67,7 @@ trunk
 trunk
 ```
 
-新しいブランチXがAの下（trunkとAの間）に配置され、元のスタック構造は維持されます。
+新しいブランチXがAの下（trunkとAの間）に挿入されます。
 
 ## --target オプションとの組み合わせ
 
@@ -97,7 +97,7 @@ trunk
 ```
       ┌── C
     ┌─┴ X
- 	┌─┴ B
+  ┌─┴ B
 ┌─┴ A
 trunk
 ```
