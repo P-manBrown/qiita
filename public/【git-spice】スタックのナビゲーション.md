@@ -1,10 +1,10 @@
 ---
 title: 【git-spice】スタックのナビゲーション
 tags:
-  - 'git-spice'
+  - git-spice
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-08-13T23:38:49+09:00'
+id: f533df2b37b4ae86a068
 organization_url_name: null
 slide: false
 ignorePublish: false
