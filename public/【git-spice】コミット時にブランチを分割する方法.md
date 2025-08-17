@@ -1,10 +1,10 @@
 ---
 title: 【git-spice】コミット時にブランチを分割する方法
 tags:
-  - 'git-spice'
+  - git-spice
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-08-17T23:54:29+09:00'
+id: 2ae9591d741269864df8
 organization_url_name: null
 slide: false
 ignorePublish: false
