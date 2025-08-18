@@ -1,10 +1,10 @@
 ---
 title: 【git-spice】ブランチのコミットをsquashする方法
 tags:
-  - 'git-spice'
+  - git-spice
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-08-18T21:30:56+09:00'
+id: 0fba3e8cd69bb7467995
 organization_url_name: null
 slide: false
 ignorePublish: false
