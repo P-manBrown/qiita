@@ -1,10 +1,10 @@
 ---
 title: 【git-spice】ブランチをベースブランチにマージする方法
 tags:
-  - 'git-spice'
+  - git-spice
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-08-19T23:18:43+09:00'
+id: 7e27b5b066437653a39a
 organization_url_name: null
 slide: false
 ignorePublish: false
