@@ -1,10 +1,10 @@
 ---
 title: 【git-spice】ブランチを削除する方法
 tags:
-  - 'git-spice'
+  - git-spice
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-08-22T15:37:37+09:00'
+id: d95a43edb8857db71517
 organization_url_name: null
 slide: false
 ignorePublish: false
