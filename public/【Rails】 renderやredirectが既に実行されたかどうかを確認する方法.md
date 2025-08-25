@@ -1,0 +1,49 @@
+---
+title: 【Rails】 renderやredirectが既に実行されたかどうかを確認する方法
+tags:
+  - 'Rails'
+private: false
+updated_at: ''
+id: null
+organization_url_name: null
+slide: false
+ignorePublish: false
+---
+## performed? 
+
+`performed?` は、render または redirect が既に実行されているかどうかをテストするメソッドです。
+
+```ruby
+# ActionController::Metal に定義されているメソッド
+def performed?
+  # render または redirect が既に実行されているかを判定
+end
+```
+
+このメソッドは `ActionController::Metal` クラスで定義されており、すべてのRailsコントローラーで利用できます。
+
+## 基本的な使い方
+
+```ruby
+class UsersController < ApplicationController
+  def show
+    @user = User.find(params[:id])
+    
+    unless @user.active?
+      redirect_to root_path
+    end
+    
+    # この時点でredirectが実行されているかチェック
+    if performed?
+      return
+    end
+    
+    # redirectが実行されていない場合のみ実行される
+    render :show
+  end
+end
+```
+
+## 参考
+
+https://api.rubyonrails.org/classes/ActionController/Metal.html#method-i-performed-3F
