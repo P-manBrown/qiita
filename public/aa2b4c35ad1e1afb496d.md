@@ -1,10 +1,10 @@
 ---
-title: 【Bruno】GitHub ActionsでCLIを実行する方法
+title: 【Bruno】GitHub Actionsでコマンドを実行する方法
 tags:
-  - 'Bruno'
+  - Bruno
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-08-24T22:16:21+09:00'
+id: aa2b4c35ad1e1afb496d
 organization_url_name: null
 slide: false
 ignorePublish: false
