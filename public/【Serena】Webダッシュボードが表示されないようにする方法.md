@@ -1,10 +1,10 @@
 ---
 title: 【Serena】Webダッシュボードが表示されないようにする方法
 tags:
-  - 'serena'
+  - Serena
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-08-30T23:45:11+09:00'
+id: 6a3d5b9737b0ffd83c46
 organization_url_name: null
 slide: false
 ignorePublish: false
