@@ -1,10 +1,10 @@
 ---
 title: 【git-spice】プルリクエストをデフォルトでドラフトとして作成するように設定する方法
 tags:
-  - 'git-spice'
+  - git-spice
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-09-02T23:52:28+09:00'
+id: d555de24c90c6d380cef
 organization_url_name: null
 slide: false
 ignorePublish: false
