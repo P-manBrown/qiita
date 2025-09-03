@@ -1,10 +1,10 @@
 ---
 title: 【git-spice】ブランチの表示順を設定する方法
 tags:
-  - 'git-spice'
+  - git-spice
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-09-03T22:38:05+09:00'
+id: e119d9a15cd0a02c7ca9
 organization_url_name: null
 slide: false
 ignorePublish: false
