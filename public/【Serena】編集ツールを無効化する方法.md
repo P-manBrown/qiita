@@ -1,11 +1,11 @@
 ---
 title: 【Serena】編集ツールを無効化する方法
 tags:
-  - 'Serena'
-  - 'MCP'
+  - Serena
+  - MCP
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-09-04T21:25:59+09:00'
+id: 37eb84b3cac6c62362ce
 organization_url_name: null
 slide: false
 ignorePublish: false
