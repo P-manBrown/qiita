@@ -1,10 +1,10 @@
 ---
 title: 【ClaudeCode】ファイル編集を常に許可する方法
 tags:
-  - 'ClaudeCode'
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-09-05T23:20:53+09:00'
+id: 2348874c7d9616887372
 organization_url_name: null
 slide: false
 ignorePublish: false
