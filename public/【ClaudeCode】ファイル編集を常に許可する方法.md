@@ -3,7 +3,7 @@ title: 【ClaudeCode】ファイル編集を常に許可する方法
 tags:
   - ClaudeCode
 private: false
-updated_at: '2025-09-05T23:20:53+09:00'
+updated_at: '2025-09-05T23:21:38+09:00'
 id: 2348874c7d9616887372
 organization_url_name: null
 slide: false
@@ -31,7 +31,7 @@ Claude Codeでファイル編集の都度確認を回避するには、設定フ
 
 特定のディレクトリやファイルのみ編集を許可する場合は、gitignore形式のパターンを使用：
 
-```json
+```jsonc
 {
   "permissions": {
     "allow": [
