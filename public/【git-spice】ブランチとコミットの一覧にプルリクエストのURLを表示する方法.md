@@ -1,10 +1,10 @@
 ---
 title: 【git-spice】ブランチとコミットの一覧にプルリクエストのURLを表示する方法
 tags:
-  - 'git-spice'
+  - git-spice
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-09-06T23:57:18+09:00'
+id: 628000f6d5a4b4bfe0ef
 organization_url_name: null
 slide: false
 ignorePublish: false
