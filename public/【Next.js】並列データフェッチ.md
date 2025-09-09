@@ -1,10 +1,10 @@
 ---
 title: 【Next.js】並列データフェッチ
 tags:
-  - 'Next.js'
+  - Next.js
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-09-09T23:56:04+09:00'
+id: d071e2963d0957e5be53
 organization_url_name: null
 slide: false
 ignorePublish: false
