@@ -3,7 +3,7 @@ title: 【Zed】ClaudeCodeによる編集を自動的に許可する方法
 tags:
   - ZedEditor
 private: false
-updated_at: '2025-09-10T22:13:42+09:00'
+updated_at: '2025-09-10T22:23:11+09:00'
 id: d9366e95bb05cd4cd131
 organization_url_name: null
 slide: false
@@ -30,4 +30,4 @@ ignorePublish: false
 
 ## 参考
 
-https://github.com/zed-industries/claude-code-acp/blob/d6c91b1ec12c119561c14c0b8fea4f5322677a96/src/tools.ts
+https://github.com/zed-industries/claude-code-acp
