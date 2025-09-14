@@ -1,10 +1,10 @@
 ---
 title: 【JavaScript】scrollHeight、clientHeight、offsetHeightの違い
 tags:
-  - 'JavaScript'
+  - JavaScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-09-14T23:58:54+09:00'
+id: f14c33cf9b23b1f8f0b4
 organization_url_name: null
 slide: false
 ignorePublish: false
