@@ -3,7 +3,7 @@ title: 【JavaScript】scrollHeight、clientHeight、offsetHeightの違い
 tags:
   - JavaScript
 private: false
-updated_at: '2025-09-14T23:58:54+09:00'
+updated_at: '2025-09-15T00:00:14+09:00'
 id: f14c33cf9b23b1f8f0b4
 organization_url_name: null
 slide: false
@@ -58,22 +58,6 @@ function positionBelow(targetElement, referenceElement) {
   const top = referenceElement.offsetTop + referenceElement.offsetHeight;
   targetElement.style.top = top + 'px';
 }
-```
-
-## 特殊なケース
-
-### ルート要素での使用
-```javascript
-// ビューポートの高さを取得
-const viewportHeight = document.documentElement.clientHeight;
-```
-
-### 非表示要素での注意点
-```javascript
-// display: noneの要素では全て0を返す
-hiddenElement.offsetHeight;  // 0
-hiddenElement.clientHeight;  // 0
-hiddenElement.scrollHeight;  // 0
 ```
 
 ## 参考
