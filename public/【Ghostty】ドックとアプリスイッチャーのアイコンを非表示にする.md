@@ -1,10 +1,10 @@
 ---
 title: 【Ghostty】ドックとアプリスイッチャーのアイコンを非表示にする
 tags:
-  - 'Ghostty'
+  - ghostty
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-09-16T23:33:02+09:00'
+id: 95e2ca7600131fcec998
 organization_url_name: null
 slide: false
 ignorePublish: false
