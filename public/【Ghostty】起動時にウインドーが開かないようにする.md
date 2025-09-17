@@ -1,10 +1,10 @@
 ---
 title: 【Ghostty】起動時にウインドーが開かないようにする
 tags:
-  - 'Ghostty'
+  - ghostty
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-09-17T23:50:51+09:00'
+id: 5bac13d57f6c831afed4
 organization_url_name: null
 slide: false
 ignorePublish: false
