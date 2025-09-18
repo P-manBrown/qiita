@@ -1,10 +1,10 @@
 ---
 title: 【Zed】セッションモードの初期値を設定する方法
 tags:
-  - 'ZedEditor'
+  - ZedEditor
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-09-18T23:54:43+09:00'
+id: b5b417f8fbae8c2b0ed2
 organization_url_name: null
 slide: false
 ignorePublish: false
