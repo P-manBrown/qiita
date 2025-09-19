@@ -1,10 +1,10 @@
 ---
-title: 【Rails】Faker::Booleanでtrueの比率を指定する方法
+title: '【Rails】Faker::Booleanでtrueの比率を指定する方法'
 tags:
-  - 'Rails'
+  - Rails
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-09-19T23:31:11+09:00'
+id: 14ca810c09dd99002a0e
 organization_url_name: null
 slide: false
 ignorePublish: false
