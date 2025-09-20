@@ -1,10 +1,10 @@
 ---
 title: 【CSS】overflowのhiddenとclipの違い
 tags:
-  - 'CSS'
+  - CSS
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-09-20T23:57:42+09:00'
+id: b694e7693a3db9ea3f65
 organization_url_name: null
 slide: false
 ignorePublish: false
