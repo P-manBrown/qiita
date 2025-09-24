@@ -1,10 +1,10 @@
 ---
 title: 【Zed】ERBファイルをフォーマットする方法
 tags:
-  - 'ZedEditor'
+  - ZedEditor
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-09-24T23:41:46+09:00'
+id: 836a95deea5d6cc91aba
 organization_url_name: null
 slide: false
 ignorePublish: false
