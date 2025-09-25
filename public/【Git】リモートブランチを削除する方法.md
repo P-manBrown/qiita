@@ -1,10 +1,10 @@
 ---
 title: 【Git】リモートブランチを削除する方法
 tags:
-  - 'Git'
+  - Git
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-09-25T21:11:41+09:00'
+id: 785b831bc1824e097a20
 organization_url_name: null
 slide: false
 ignorePublish: false
