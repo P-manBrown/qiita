@@ -3,7 +3,7 @@ title: '【Rails】外部キー制約のon_delete: :restrict、:nullify、:casca
 tags:
   - Rails
 private: false
-updated_at: '2025-09-26T21:56:23+09:00'
+updated_at: '2025-09-26T21:57:45+09:00'
 id: 2a3d296e4fc22adc2cf9
 organization_url_name: null
 slide: false
@@ -35,7 +35,7 @@ add_foreign_key "revisions", "users", column: "created_by_id", on_delete: :restr
 add_foreign_key "revisions", "users", column: "created_by_id", on_delete: :nullify
 ```
 
-`user`が削除されると、関連する`revisions`の`created_by_id`が`null`になる
+`user`が削除されると、関連する`revisions`の`created_by_id`が`null`になります。
 
 ### :cascade
 
@@ -45,7 +45,7 @@ add_foreign_key "revisions", "users", column: "created_by_id", on_delete: :nulli
 add_foreign_key "revisions", "users", column: "created_by_id", on_delete: :cascade
 ```
 
-`user`が削除されると、関連する`revisions`も自動的に削除される
+`user`が削除されると、関連する`revisions`も自動的に削除されます。
 
 ## まとめ
 
