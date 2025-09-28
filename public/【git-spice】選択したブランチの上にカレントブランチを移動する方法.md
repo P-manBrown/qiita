@@ -1,10 +1,10 @@
 ---
 title: 【git-spice】選択したブランチの上にカレントブランチを移動する方法
 tags:
-  - 'git-spice'
+  - git-spice
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-09-28T22:01:55+09:00'
+id: 67feb94e79fa7318e135
 organization_url_name: null
 slide: false
 ignorePublish: false
