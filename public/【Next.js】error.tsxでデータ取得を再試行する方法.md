@@ -1,10 +1,10 @@
 ---
 title: 【Next.js】error.tsxでデータ取得を再試行する方法
 tags:
-  - 'Nextjs'
+  - Next.js
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-10-03T23:37:46+09:00'
+id: 9807162c5945fb459014
 organization_url_name: null
 slide: false
 ignorePublish: false
