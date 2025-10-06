@@ -1,10 +1,10 @@
 ---
 title: 【Next.js】emoji-picker-reactで絵文字を表示する方法
 tags:
-  - 'Next.js'
+  - Next.js
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-10-07T00:00:19+09:00'
+id: dc03811b570846511802
 organization_url_name: null
 slide: false
 ignorePublish: false
