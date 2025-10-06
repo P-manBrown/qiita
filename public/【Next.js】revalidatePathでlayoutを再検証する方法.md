@@ -1,7 +1,7 @@
 ---
 title: 【Next.js】revalidatePathでlayoutを再検証する方法
 tags:
-  - 'Next.js'
+  - 'Nextjs'
 private: false
 updated_at: ''
 id: null
