@@ -1,0 +1,44 @@
+---
+title: 【git-spice】タイトルと内容を指定してsubmitする方法
+tags:
+  - 'git-spice'
+private: false
+updated_at: ''
+id: null
+organization_url_name: null
+slide: false
+ignorePublish: false
+---
+## 方法
+
+`submit`コマンドに`--title` `--body`を加えることでプルリクエストのタイトルや内容を指定できます。
+
+```bash
+gs branch submit \
+    --title "Add user authentication" \
+    --body "This PR implements OAuth2 authentication for user login"
+```
+
+### 例
+
+```bash
+# 通常のPR作成
+gs branch submit \
+    --title "Implement user profile API" \
+    --body "Add REST API endpoints for user profile management
+
+Features:
+- GET /api/profile - Get user profile
+- PUT /api/profile - Update user profile
+- Validation and error handling included"
+
+# ドラフトPRとして作成
+gs branch submit \
+    --title "WIP: Database migration" \
+    --body "Work in progress for user table schema updates" \
+    --draft
+```
+
+## 参考
+
+https://abhinav.github.io/git-spice/cli/reference/#gs-branch-submit
