@@ -1,10 +1,10 @@
 ---
 title: 【Zed】formatterの設定方法
 tags:
-  - 'ZedEditor'
+  - ZedEditor
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-10-16T21:42:15+09:00'
+id: bab5246b3c29e719ac63
 organization_url_name: null
 slide: false
 ignorePublish: false
