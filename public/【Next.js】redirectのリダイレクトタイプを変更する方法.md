@@ -1,0 +1,43 @@
+---
+title: 【Next.js】redirectのリダイレクトタイプを変更する方法
+tags:
+  - 'Next.js'
+private: false
+updated_at: ''
+id: null
+organization_url_name: null
+slide: false
+ignorePublish: false
+---
+## デフォルトのリダイレクトタイプ
+
+Next.jsの`redirect`は、使用場所によってデフォルトのリダイレクトタイプが異なります。
+
+- **Server Actions**: `push` (ブラウザ履歴に新しいエントリを追加)
+- **その他の場所**: `replace` (現在のURLをブラウザ履歴で置き換え)
+
+## リダイレクトタイプの変更方法
+
+`redirect`の第2引数で`type`パラメータを指定することで、デフォルトの動作を上書きできます。
+
+### 基本的な使い方
+
+```tsx
+import { redirect, RedirectType } from 'next/navigation'
+
+// replaceを使用
+redirect('/redirect-to', RedirectType.replace)
+
+// pushを使用
+redirect('/redirect-to', RedirectType.push)
+```
+
+## 注意点
+
+- **Server Components**では`type`パラメータは効果がありません
+- `redirect`はエラーをスローするため、`try/catch`の外で呼び出す必要があります
+- クライアントコンポーネントのイベントハンドラでは`useRouter`を使用してください
+
+## 参考
+
+https://nextjs.org/docs/app/api-reference/functions/redirect
