@@ -1,0 +1,65 @@
+---
+title: 【Next.js】クライアントサイドでのみレンダリングされるようにする方法
+tags:
+  - Next.js
+private: false
+updated_at: '2025-10-30T23:34:24+09:00'
+id: 12eb9da3fafec9acc473
+organization_url_name: null
+slide: false
+ignorePublish: false
+---
+Next.jsにおいてSSRを回避し、`useLayoutEffect`などを正常に使用する方法について記載します。
+
+## `dynamic`を使用する
+
+`dynamic`で`{ssr: false}`を指定することでSSRを回避できます。
+
+```jsx
+const Sample = dynamic(() => import('../components/Sample'), { ssr: false })
+```
+
+https://nextjs.org/docs/app/building-your-application/optimizing/lazy-loading#skipping-ssr
+
+## `Suspense`を使用する
+
+以下のように記述するとクライアント側で
+
+```jsx
+
+<Suspense fallback={<Loading />}>
+  <Sample />
+</Suspense>
+
+function Sample() {
+  if (typeof window === 'undefined') {
+    throw Error('Sample should only render on the client.');
+  }
+  // ...
+}
+
+```
+
+SSRではエラーとなり、最も近い`Suspense`の`fallback`に指定した`Loading`が表示されます。
+クライアントで正常に処理が完了すると`Sample`が表示されます。
+
+https://ja.react.dev/reference/react/Suspense#providing-a-fallback-for-server-errors-and-client-only-content
+
+## `isMounted` stateを使用する
+
+以下のように記述するとコンポーネントがハイドレーションの後にのみレンダリングされます。
+
+```jsx
+export function Sample() {
+  const [isMounted, setIsMounted] = useState(false)
+
+  useEffect(() => {
+    setIsMounted(true)
+  }, [])
+
+  return isMounted ? <RealContent /> : <FallbackContent />
+}
+
+```
+
+`useEffect`はクライアントでのみ実行されるため、SSRでは`FallbackContent`がレンダリングされ、`useEffect`が実行されると`RealContent`が表示されます。
