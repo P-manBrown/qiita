@@ -3,7 +3,7 @@ title: 【React】progressの使い方
 tags:
   - React
 private: false
-updated_at: '2025-11-01T23:44:48+09:00'
+updated_at: '2025-11-01T23:49:08+09:00'
 id: cd2d520a2d99419381ce
 organization_url_name: null
 slide: false
@@ -19,9 +19,9 @@ ignorePublish: false
 
 ## Props
 
-`<progress>`コンポーネントは以下のpropsをサポートしています:
+`<progress>`コンポーネントは以下のpropsをサポートしています。
 
-- **value**: `0`から`max`までの数値、または不確定状態の場合は`null`。完了度を指定します。
+- **value**: `0`から`max`までの数値、または不確定状態の場合は`null`。完了度を指定
 - **max**: 最大値を指定する数値。デフォルトは`1`
 
 ## 例
