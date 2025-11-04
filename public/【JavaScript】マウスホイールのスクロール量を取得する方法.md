@@ -1,10 +1,10 @@
 ---
 title: 【JavaScript】マウスホイールのスクロール量を取得する方法
 tags:
-  - 'JavaScript'
+  - JavaScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-11-03T23:51:22+09:00'
+id: a307ba4157fd0c11ddf6
 organization_url_name: null
 slide: false
 ignorePublish: false
