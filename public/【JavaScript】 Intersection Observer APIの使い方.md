@@ -1,10 +1,10 @@
 ---
 title: 【JavaScript】 Intersection Observer APIの使い方
 tags:
-  - 'JavaScript'
+  - JavaScript
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-11-04T23:48:23+09:00'
+id: 55f14b0f1b0a0379d6d8
 organization_url_name: null
 slide: false
 ignorePublish: false
