@@ -3,7 +3,7 @@ title: 【Zed】隠しファイルの表示・非表示を切り替える方法
 tags:
   - ZedEditor
 private: false
-updated_at: '2025-11-15T23:46:42+09:00'
+updated_at: '2025-11-15T23:51:19+09:00'
 id: acf9237eb09f84c96269
 organization_url_name: null
 slide: false
@@ -38,14 +38,14 @@ ignorePublish: false
 
 **設定例**
 
-```json
+```jsonc
 {
   "hidden_files": [
-    "**/.*",           // ドットファイル
-    "**/*.tmp",        // 一時ファイル
-    "**/build/**",     // ビルドディレクトリ
-    "**/node_modules/**", // node_modules
-    "**/*.log"         // ログファイル
+    "**/.*",
+    "**/*.tmp",
+    "**/build/**",
+    "**/node_modules/**",
+    "**/*.log"
   ]
 }
 ```
