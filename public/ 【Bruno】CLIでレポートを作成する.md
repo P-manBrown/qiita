@@ -1,0 +1,66 @@
+---
+title: '【Bruno】CLIでレポートを作成する'
+tags:
+  - 'Bruno'
+private: false
+updated_at: ''
+id: null
+organization_url_name: null
+slide: false
+ignorePublish: false
+---
+## 基本的なレポート生成
+
+### JSON形式
+
+プログラムによる処理や分析に適している形式です。
+
+```bash
+bru run request.bru --reporter-json results.json
+```
+
+### JUnit形式
+
+JUnitレポートに依存するCI/CDパイプラインとの統合に最適な形式です。
+
+```bash
+bru run request.bru --reporter-junit results.xml
+```
+
+### HTML形式
+
+人間が読みやすい視覚的なレポート形式です。
+
+```bash
+bru run request.bru --reporter-html results.html
+```
+
+## 複数レポートの同時生成
+
+最も便利な機能の一つが、複数形式のレポートを同時に生成できることです。
+
+```bash
+bru run request.bru --reporter-json results.json --reporter-junit results.xml --reporter-html results.html
+```
+
+この一つのコマンドで、3つの異なる形式のレポートが同時に生成されます。
+
+## ヘッダー情報の制御
+
+セキュリティ上の理由で、特定のヘッダー情報をレポートから除外したい場合があります。
+
+### 特定ヘッダーをスキップ
+
+```bash
+bru run --reporter-html results.html --reporter-skip-headers "Authorization" "X-Auth-Token"
+```
+
+### 全ヘッダーをスキップ
+
+```bash
+bru run --reporter-html results.html --reporter-skip-all-headers
+```
+
+## 参考
+
+https://docs.usebruno.com/bru-cli/builtInReporters

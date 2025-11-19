@@ -1,10 +1,10 @@
 ---
 title: 【Zed】エージェントの通知をすべてのスクリーンに表示する方法
 tags:
-  - 'ZedEditor'
+  - ZedEditor
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-11-18T23:56:33+09:00'
+id: 69b4517c73417a6bd8ba
 organization_url_name: null
 slide: false
 ignorePublish: false
