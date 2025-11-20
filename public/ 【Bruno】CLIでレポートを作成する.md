@@ -1,10 +1,10 @@
 ---
-title: '【Bruno】CLIでレポートを作成する'
+title: 【Bruno】CLIでレポートを作成する
 tags:
-  - 'Bruno'
+  - Bruno
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-11-19T23:58:45+09:00'
+id: 0447f978e4dcaad8f4bc
 organization_url_name: null
 slide: false
 ignorePublish: false
