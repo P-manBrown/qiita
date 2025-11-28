@@ -2,7 +2,7 @@
 title: 【VSCode】GitHub Copilot ChatでWeb検索を使用する方法
 tags:
   - VSCode
-  - githubcopilot
+  - GitHubCopilot
   - githubcopilotchat
 private: false
 updated_at: '2024-10-31T19:49:11+09:00'
