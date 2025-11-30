@@ -3,7 +3,7 @@ title: 【Zed】プロジェクト名を設定する方法
 tags:
   - ZedEditor
 private: false
-updated_at: '2025-11-28T22:07:30+09:00'
+updated_at: '2025-11-28T22:09:52+09:00'
 id: 351b5ce417c155692d78
 organization_url_name: null
 slide: false
@@ -13,7 +13,7 @@ ignorePublish: false
 
 プロジェクトの`settings.json`に`project_name`を記述すると任意のプロジェクト名に変更できます。
 
-```json
+```json:settings.json
 {
 	"project_name": "プロジェクト名"
 }
