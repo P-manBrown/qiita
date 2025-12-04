@@ -1,10 +1,10 @@
 ---
 title: 【ReactHookForm】registerで入力値のデータ型を変換する方法
 tags:
-  - 'ReactHookForm'
+  - ReactHookForm
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-12-04T00:01:04+09:00'
+id: ab693b3c45019e85b951
 organization_url_name: null
 slide: false
 ignorePublish: false
@@ -56,3 +56,7 @@ ignorePublish: false
   })}
 />
 ```
+
+## 参考
+
+https://react-hook-form.com/docs/useform/register

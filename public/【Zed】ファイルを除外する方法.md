@@ -3,7 +3,7 @@ title: 【Zed】ファイルを除外する方法
 tags:
   - ZedEditor
 private: false
-updated_at: '2025-12-02T23:30:38+09:00'
+updated_at: '2025-12-02T23:33:17+09:00'
 id: 9c79ea0f7df1453dedb2
 organization_url_name: null
 slide: false
@@ -51,7 +51,7 @@ Zedのデフォルト設定では、以下が除外されています。
 `file_scan_exclusions`を`settings.json`で設定すると、デフォルト値が**上書き**されます。
 
 追加で除外したい場合は、デフォルト値も含めて記述する必要があります。
-```json
+```jsonc
 {
   "file_scan_exclusions": [
     // デフォルト値
