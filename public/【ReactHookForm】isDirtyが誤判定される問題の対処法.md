@@ -3,7 +3,7 @@ title: 【ReactHookForm】isDirtyが誤判定される問題の対処法
 tags:
   - ReactHookForm
 private: false
-updated_at: '2025-12-07T23:56:34+09:00'
+updated_at: '2025-12-07T23:58:50+09:00'
 id: 069ef35c321a90446b07
 organization_url_name: null
 slide: false
@@ -36,7 +36,7 @@ const form = useForm({
 });
 ```
 
-### 2. dirtyFields`で判定する
+### 2. `dirtyFields`で判定する
 
 動的なフォームなど、全フィールドの`defaultValues`を事前に定義するのが困難な場合は、`dirtyFields`が空かどうかで判定します。
 
