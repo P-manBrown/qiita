@@ -1,10 +1,10 @@
 ---
 title: 【Ruby】範囲指定
 tags:
-  - 'ruby'
+  - Ruby
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-12-08T23:59:00+09:00'
+id: eeb634ef0ae7e40a7188
 organization_url_name: null
 slide: false
 ignorePublish: false
