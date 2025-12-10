@@ -1,10 +1,10 @@
 ---
 title: 【Serena】編集を禁止する方法
 tags:
-  - 'Serena'
+  - Serena
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-12-09T23:59:10+09:00'
+id: fbd2fedf2b9d9f528a65
 organization_url_name: null
 slide: false
 ignorePublish: false
