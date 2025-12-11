@@ -11,6 +11,6 @@
     "pull": "qiita pull --force"
   },
   "devDependencies": {
-    "@qiita/qiita-cli": "^1.6.2"
+    "@qiita/qiita-cli": "^1.7.0"
   }
 }
