@@ -1,10 +1,10 @@
 ---
 title: 【Next.js】ルーターキャッシュの自動無効化
 tags:
-  - 'Next.js'
+  - Next.js
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-12-14T00:00:39+09:00'
+id: 1c72ee3e51e69372eb37
 organization_url_name: null
 slide: false
 ignorePublish: false
