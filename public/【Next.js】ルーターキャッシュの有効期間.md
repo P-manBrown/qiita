@@ -1,9 +1,9 @@
 ---
-title: 【Next.js】ルーターキャッシュの自動無効化
+title: 【Next.js】ルーターキャッシュの自動無効化期間
 tags:
   - Next.js
 private: false
-updated_at: '2025-12-14T00:00:39+09:00'
+updated_at: '2025-12-14T00:01:48+09:00'
 id: 1c72ee3e51e69372eb37
 organization_url_name: null
 slide: false

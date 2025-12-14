@@ -1,10 +1,10 @@
 ---
 title: 【Zed】Vimモードの文字検索で大文字小文字を区別しないようにする方法
 tags:
-  - 'ZedEditor'
+  - ZedEditor
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-12-15T00:01:10+09:00'
+id: 0dc674a62e35dd0850eb
 organization_url_name: null
 slide: false
 ignorePublish: false
