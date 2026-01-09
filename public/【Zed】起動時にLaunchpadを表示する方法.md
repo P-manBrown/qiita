@@ -1,0 +1,63 @@
+---
+title: 【Zed】起動時にLaunchpadを表示する方法
+tags:
+  - ZedEditor
+private: false
+updated_at: '2026-01-09T23:53:36+09:00'
+id: 3595b321d992523b3437
+organization_url_name: null
+slide: false
+ignorePublish: false
+---
+## 設定方法
+
+Zedの設定ファイル(`settings.json`)を開き、以下を追加します。
+
+```json
+{
+  "restore_on_startup": "launchpad"
+}
+```
+
+![screen-shot-809.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2342443/05e5321b-d2fb-4930-a6ae-bf325477ca0a.png)
+
+## 設定値の詳細
+
+`restore_on_startup`には以下の4つの値を指定できます。
+
+| 値                 | 動作                                                         |
+| ------------------ | ------------------------------------------------------------ |
+| `"last_session"`   | 前回終了時に開いていたすべてのワークスペースを復元（デフォルト） |
+| `"last_workspace"` | 最後に閉じたワークスペースのみを復元                         |
+| `"empty_tab"`      | 常に空のエディタで起動                                       |
+| `"launchpad"`      | 常にLaunchpadを表示                                          |
+
+## 使用例
+
+### Launchpadから毎回プロジェクトを選びたい場合
+
+```json
+{
+  "restore_on_startup": "launchpad"
+}
+```
+
+### 常にクリーンな状態で起動したい場合
+
+```json
+{
+  "restore_on_startup": "empty_tab"
+}
+```
+
+### 前回のセッション全体を復元したい場合（デフォルト）
+
+```json
+{
+  "restore_on_startup": "last_session"
+}
+```
+
+## 参考
+
+https://zed.dev/docs/configuring-zed#restore-on-startup

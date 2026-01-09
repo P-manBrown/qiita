@@ -1,10 +1,10 @@
 ---
 title: 【Zed】ワークツリーを自動的に信頼する方法
 tags:
-  - 'ZedEditor'
+  - ZedEditor
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-01-08T23:54:41+09:00'
+id: c391e2447df505dbb4d1
 organization_url_name: null
 slide: false
 ignorePublish: false
