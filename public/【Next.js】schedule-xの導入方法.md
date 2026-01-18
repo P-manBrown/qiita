@@ -3,7 +3,7 @@ title: 【Next.js】schedule-xの導入方法
 tags:
   - Next.js
 private: false
-updated_at: '2026-01-17T23:31:35+09:00'
+updated_at: '2026-01-17T23:33:05+09:00'
 id: c879d3ba0486db207ecd
 organization_url_name: null
 slide: false
@@ -84,4 +84,4 @@ export default function CalendarApp() {
 
 ## 参考
 
-- [Schedule-X公式ドキュメント](https://schedule-x.dev/docs/frameworks/react)
+https://schedule-x.dev/docs/frameworks/react
