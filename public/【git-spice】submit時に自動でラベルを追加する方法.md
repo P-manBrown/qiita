@@ -1,10 +1,10 @@
 ---
 title: 【git-spice】submit時に自動でラベルを追加する方法
 tags:
-  - 'git-spice'
+  - git-spice
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-01-20T23:57:31+09:00'
+id: 4d8c6da368f74b4238a6
 organization_url_name: null
 slide: false
 ignorePublish: false
