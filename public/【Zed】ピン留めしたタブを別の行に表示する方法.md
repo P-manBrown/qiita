@@ -3,7 +3,7 @@ title: 【Zed】ピン留めしたタブを別の行に表示する方法
 tags:
   - ZedEditor
 private: false
-updated_at: '2026-01-21T23:38:17+09:00'
+updated_at: '2026-01-22T15:45:54+09:00'
 id: e3b6746b706cf9365a1f
 organization_url_name: null
 slide: false
@@ -20,6 +20,8 @@ ignorePublish: false
 **動的表示:**
 - ピン留めタブと通常タブが両方存在する場合のみ2行表示
 - どちらか一方のみの場合は1行表示
+
+![screen-shot-815.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2342443/e5ae2187-11a8-4bf5-b400-c6b822d7f77a.png)
 
 ### Settings UIから設定
 
