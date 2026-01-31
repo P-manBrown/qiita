@@ -1,10 +1,10 @@
 ---
 title: 【Zed】除外するファイルを指定する方法
 tags:
-  - 'ZedEditor'
+  - ZedEditor
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-01-31T00:07:07+09:00'
+id: 0a6c20e4c5bc0064e5db
 organization_url_name: null
 slide: false
 ignorePublish: false
