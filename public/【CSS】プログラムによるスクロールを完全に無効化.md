@@ -1,10 +1,10 @@
 ---
-title: 【CSS】プログラムによるスクロールを完全に無効化
+title: 【CSS】プログラムによるスクロールも完全に無効化する方法
 tags:
-  - 'CSS'
+  - CSS
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-01-31T23:57:24+09:00'
+id: 5452afbd64fa4c61b6c5
 organization_url_name: null
 slide: false
 ignorePublish: false
