@@ -3,7 +3,7 @@ title: 【Zed】ターミナルのタブ名を変更する方法
 tags:
   - ZedEditor
 private: false
-updated_at: '2026-02-06T23:56:09+09:00'
+updated_at: '2026-02-07T00:01:47+09:00'
 id: 4c80c2761acd7e858dc0
 organization_url_name: null
 slide: false
@@ -21,7 +21,7 @@ ignorePublish: false
 
 ## カスタム名の永続化
 
-設定したカスタム名は、Zedを再起動しても保持されます。ワークスペースの設定として保存されるため、プロジェクトごとに適切な名前を付けておくことができます。
+設定したカスタム名は、Zedを再起動しても保持されます。
 
 ## 参考
 
