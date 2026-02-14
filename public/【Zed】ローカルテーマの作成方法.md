@@ -1,10 +1,10 @@
 ---
 title: 【Zed】ローカルテーマの作成方法
 tags:
-  - 'ZedEditor'
+  - ZedEditor
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-02-14T00:00:22+09:00'
+id: 5f44c58c722f3fc63a7e
 organization_url_name: null
 slide: false
 ignorePublish: false
