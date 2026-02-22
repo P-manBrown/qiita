@@ -3,7 +3,7 @@ title: 【RepoHealth】リポジトリの健全性を確認する方法
 tags:
   - RepoHealth
 private: false
-updated_at: '2026-02-21T19:35:48+09:00'
+updated_at: '2026-02-21T19:36:37+09:00'
 id: 3e2a8bd2f01fac4218e6
 organization_url_name: null
 slide: false
@@ -11,7 +11,7 @@ ignorePublish: false
 ---
 ## はじめに
 
-**[Repo Health](https://repo-health.up.railway.app/)** は、リポジトリの健全性を確認できるオープンソースツールです。
+**[Repo Health](https://github.com/ElshadHu/repo-health)** は、リポジトリの健全性を確認できるオープンソースツールです。
 
 ## できること
 
