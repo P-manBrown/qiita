@@ -1,10 +1,10 @@
 ---
 title: 【Zed】エージェントのThinking Effort（思考量）を変更する方法
 tags:
-  - 'ZedEditor'
+  - ZedEditor
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-02-27T23:56:26+09:00'
+id: a124db5585f2b84d7fa5
 organization_url_name: null
 slide: false
 ignorePublish: false
