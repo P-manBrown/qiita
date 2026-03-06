@@ -1,0 +1,185 @@
+---
+title: 【TailwindCSS】ComponentとUtilityの使い分け
+tags:
+  - Tailwind CSS
+  - CSS設計
+  - フロントエンド
+private: false
+updated_at: ''
+id: null
+organization_url_name: null
+slide: false
+ignorePublish: false
+---
+## はじめに
+
+Tailwind CSSを使っていると、「これはComponentとして切り出すべきか？それともUtilityクラスをそのまま使えばいいのか？」と迷う場面が出てきます。
+
+この記事では、**ComponentとUtilityの本質的な違い**を整理し、どう使い分けるかを具体的なコード例を交えて解説します。Tailwind CSS v4系の`@utility`構文にも触れながら、保守性の高い設計を目指す指針を提示します。
+
+参考：[Distinguishing "Components" and "Utilities" in Tailwind | CSS-Tricks](https://css-tricks.com/distinguishing-components-and-utilities-in-tailwind/?ref=dailydev)
+
+## ComponentとUtilityの定義を見直す
+
+Tailwindのドキュメントや各種記事では、Component・Utilityをおおよそ次のように定義することが多いです。
+
+| 用語 | よくある定義 |
+|------|------------|
+| Component | 複数のスタイルをまとめたもの（例：`.card`、`.btn`） |
+| Utility | 単一のCSSルールに対応するクラス（例：`px-4`、`text-sm`） |
+
+しかし、**この定義は本質を捉えきれていません**。
+
+語源に立ち返ってみましょう。
+
+- **Component**（コンポーネント）：「より大きな全体を構成する部品」
+- **Utility**（ユーティリティ）：「役に立つもの、有用であること」
+
+この定義に従うと、**UtilityはComponentの一種**（全体を構成する部品だから）であり、**ComponentはUtilityの一種**（役に立つから）でもあります。
+
+> **ComponentとUtilityの境界線は、実は思ったほど明確ではありません。**
+
+## なぜ境界線が曖昧になるのか
+
+Tailwind CSS v4では、`@utility`構文を使って複数のスタイルをまとめたクラスを定義できます。
+
+```css
+@utility card {
+  border: 1px solid black;
+  padding: 1rlh;
+}
+```
+
+```html
+<div class="card"> ... </div>
+```
+
+これは見た目上「Componentっぽい」ですが、`@utility`として定義しています。
+
+つまり、**「複数スタイルをまとめたらComponent、単一ルールならUtility」という区分けは技術的な根拠が弱い**のです。
+
+## 実用上の意味のある違い
+
+では、ComponentとUtilityを区別することに意味はないのでしょうか？
+
+ひとつ**実用的な違い**があります。それは「**スタイルを上書きしたいかどうか**」です。
+
+| 分類 | 特徴 |
+|------|------|
+| Component的なスタイル | 複数ルールをまとめた基盤。ベースとして使い、状況に応じて上書きされることを想定 |
+| Utility的なスタイル | 上書きするために使う。個別の調整に用いる |
+
+この観点で整理すると、「ComponentとUtilityの違い＝**ベース定義か、上書き用か**」という実用的な軸が見えてきます。
+
+## スタイルの上書き：2つのアプローチ
+
+### ❶ `@layer components`を使う（従来の方法）
+
+```css
+@layer components {
+  .card {
+    border: 1px solid black;
+    padding: 1rlh;
+  }
+}
+```
+
+```html
+<!-- border-blue-500でborderを上書き -->
+<div class="card border-blue-500"> ... </div>
+```
+
+この方法の**問題点**：
+
+- `@layer components`をすべてのコンポーネントファイルに書く必要がある
+- インデントが増え、CSSの可読性が下がる
+- `@utility`の柔軟性を活かせない
+
+### ❷ `@utility`＋`!important`修飾子を使う（推奨）
+
+```css
+@utility card {
+  padding: 1rlh;
+  border: 1px solid black;
+}
+```
+
+```html
+<!-- !important修飾子でborderを上書き -->
+<div class="card !border-blue-500"> ... </div>
+```
+
+`@utility`として定義することで、Tailwindのカスケードレイヤーを利用でき、`!`修飾子で明示的に上書きが可能になります。
+
+:::note info
+**`!important`修飾子とは？**
+Tailwind CSS v3以降では、クラス名の先頭に`!`をつけることでそのスタイルに`!important`を付与できます。`!border-blue-500`は`border-color: blue !important`として出力されます。
+:::
+
+## 実際のコード例で比較する
+
+### シナリオ：カードコンポーネントを状況に応じてカスタマイズしたい
+
+#### Component定義（`@utility`で基盤スタイルをまとめる）
+
+```css
+/* tailwind.css または globals.css */
+@utility card {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+```
+
+#### Utilityで上書きする使用例
+
+```html
+<!-- 基本のカード（Componentそのまま） -->
+<div class="card">
+  <p>通常のカードです</p>
+</div>
+
+<!-- Utilityでボーダーカラーを上書き（警告カード） -->
+<div class="card !border-yellow-400">
+  <p>⚠️ 注意が必要なカードです</p>
+</div>
+
+<!-- Utilityで背景色・ボーダーを上書き（強調カード） -->
+<div class="card !bg-blue-50 !border-blue-300">
+  <p>ℹ️ 情報カードです</p>
+</div>
+```
+
+#### Reactコンポーネントでの活用例
+
+```tsx
+type CardVariant = 'default' | 'warning' | 'info';
+
+// Component（card）をベースに、Utilityで差分を上書き
+const variantClasses: Record<CardVariant, string> = {
+  default: 'card',
+  warning: 'card !border-yellow-400 !bg-yellow-50',
+  info: 'card !border-blue-300 !bg-blue-50',
+};
+
+type CardProps = {
+  variant?: CardVariant;
+  children: React.ReactNode;
+};
+
+export const Card = ({ variant = 'default', children }: CardProps) => {
+  return (
+    <div className={variantClasses[variant]}>
+      {children}
+    </div>
+  );
+};
+```
+
+## 参考
+
+https://css-tricks.com/distinguishing-components-and-utilities-in-tailwind/
+
+https://tailwindcss.com/docs
