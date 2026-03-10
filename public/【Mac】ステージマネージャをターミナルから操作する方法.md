@@ -1,12 +1,11 @@
 ---
 title: 【Mac】ステージマネージャをターミナルから操作する方法
 tags:
+  - Terminal
   - macOS
-  - Stage Manager
-  - ターミナル
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-03-09T23:14:27+09:00'
+id: 509c432f4a56160eaa7d
 organization_url_name: null
 slide: false
 ignorePublish: false
