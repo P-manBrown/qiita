@@ -1,0 +1,63 @@
+---
+title: 【Zed】クリップボードと選択したコードの差分を表示する方法
+tags:
+  - ZedEditor
+private: false
+updated_at: '2026-03-18T23:55:26+09:00'
+id: 0298a7727f34e4e36465
+organization_url_name: null
+slide: false
+ignorePublish: false
+---
+## どんなときに使う機能か
+
+コードベースが大きくなると、ほぼ同じ処理を書いた関数やブロックが複数箇所に散らばることがあります。これらをまとめてリファクタリングしようとするとき、「どこが違うのか」を正確に把握するのが意外と手間です。
+
+Zed には `editor: diff clipboard with selection` というコマンドがあり、クリップボードにコピーしたコードと、現在選択しているコードの差分をその場で確認できます。差分を見れば「ここだけパラメータ化すればいい」という箇所がすぐわかります。
+
+## 基本的な使い方
+
+1. 比較したい一方のコードをコピー（`cmd-c` / `ctrl-c`）してクリップボードに入れる
+2. もう一方のコードをエディタ上で選択する
+3. コマンドパレット（`cmd-shift-p` / `ctrl-shift-p`）を開いて `diff clipboard with selection` を実行する
+
+差分ビューが開き、追加・削除された行がハイライト表示されます。
+
+## 具体例
+
+たとえば、以下の 2 つの関数があるとします。
+
+```ruby
+# 関数 A（クリップボードにコピー）
+def calculate_discount(price, rate)
+  discount = price * rate
+  price - discount
+end
+
+# 関数 B（エディタ上で選択）
+def calculate_tax(price, rate)
+  tax = price * rate
+  price + tax
+end
+```
+
+関数 A をコピーして関数 B を選択した状態でコマンドを実行すると、差分ビューには `discount` と `tax`、`price - discount` と `price + tax` の部分だけが差分として表示されます。関数名と変数名だけが異なると一目で把握できます。
+
+## キーバインドを登録する
+
+頻繁に使う場合は `keymap.json` にキーバインドを登録しておくと、コマンドパレットを開く手間を省けます。
+
+```json
+{
+  "context": "Editor",
+  "bindings": {
+    "cmd-alt-d": "editor::DiffClipboardWithSelection"
+  }
+}
+```
+
+`context` を `Editor` に限定しておくことで、エディタ以外の場所での誤作動を防げます。
+
+## 参考
+
+https://zed.dev/blog/hidden-gems-part-3#spot-the-difference
