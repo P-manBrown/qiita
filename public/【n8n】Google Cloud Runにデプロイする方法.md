@@ -1,11 +1,11 @@
 ---
-title: Google Cloud Runでn8nをServerlessにデプロイしてみた
+title: 【n8n】Google Cloud Runでデプロイする方法
 tags:
   - GoogleCloud
   - CloudRun
   - n8n
 private: false
-updated_at: '2026-03-19T20:32:16+09:00'
+updated_at: '2026-03-19T20:40:11+09:00'
 id: cde318fb4c6a06d3d0a1
 organization_url_name: null
 slide: false
