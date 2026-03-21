@@ -1,0 +1,84 @@
+---
+title: 【Zed】カーソル位置に関係なく新しい行を挿入する方法
+tags:
+  - ZedEditor
+private: false
+updated_at: '2026-03-21T20:21:06+09:00'
+id: e5945613cb71591f7dc0
+organization_url_name: null
+slide: false
+ignorePublish: false
+---
+## はじめに
+
+コードを書いているとき、行の途中でカーソルが止まっている状態のまま新しい行を追加したいことがあります。
+
+通常の `Enter` キーでは、カーソルのある位置で行が分割されてしまいます。毎回行末に移動してから `Enter` を押すのは手間がかかります。
+
+Zed にはカーソルの位置に関係なく、現在行の**下**または**上**に新しい行を挿入できるショートカットが用意されています。
+
+## ショートカットキー
+
+| 操作 | macOS | Windows / Linux |
+|------|-------|-----------------|
+| 現在行の**下**に新しい行を挿入 | `Cmd + Enter` | `Ctrl + Enter` |
+| 現在行の**上**に新しい行を挿入 | `Cmd + Shift + Enter` | `Ctrl + Shift + Enter` |
+
+どちらのショートカットも、実行後はカーソルが新しく挿入した行に移動します。
+
+## 使用例
+
+たとえば、以下のようなコードがあるとします。
+
+```ruby
+def greet(name)
+  puts "Hello, #{name}!"
+end
+```
+
+`puts "Hello, #{name}!"` の行の**途中**にカーソルがある状態で `Cmd + Enter`（macOS）を押すと、その行を分割せずに下に新しい行が挿入され、カーソルも新しい行に移動します。
+
+```ruby
+def greet(name)
+  puts "Hello, #{name}!"
+  # ← ここに新しい行が挿入され、カーソルも移動する
+end
+```
+
+`Cmd + Shift + Enter` の場合は、現在行の**上**に挿入されます。
+
+```ruby
+def greet(name)
+  # ← ここに新しい行が挿入される
+  puts "Hello, #{name}!"
+end
+```
+
+## コマンドパレットでの実行
+
+キーボードショートカットの代わりに、コマンドパレット（`Cmd + Shift + P` / `Ctrl + Shift + P`）から以下のコマンドを実行することもできます。
+
+- 下に挿入：`editor: new line below`
+- 上に挿入：`editor: new line above`
+
+## カスタムキーバインドの設定
+
+デフォルトのショートカットを変更したい場合は、`keymap.json` にカスタムキーバインドを追加します。
+
+```json
+[
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-o": "editor: new line below",
+      "ctrl-shift-o": "editor: new line above"
+    }
+  }
+]
+```
+
+キーマップファイルは、コマンドパレットから `zed: open keymap` を実行すると開けます。
+
+## 参考
+
+https://zed.dev/blog/hidden-gems-part-3#editing-micro-optimizations
