@@ -3,8 +3,8 @@ title: 【Zed】定義へ移動した際にスクロール位置を維持する�
 tags:
   - ZedEditor
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-05-13T21:39:06+09:00'
+id: 923043bd1ad7935ab5fe
 organization_url_name: null
 slide: false
 ignorePublish: false
