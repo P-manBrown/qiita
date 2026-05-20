@@ -3,7 +3,7 @@ title: 【Zed】補完メニューにシンボルを表示する方法
 tags:
   - ZedEditor
 private: false
-updated_at: '2026-05-19T21:36:36+09:00'
+updated_at: '2026-05-19T21:47:23+09:00'
 id: d422ed610a956c7649e8
 organization_url_name: null
 slide: false
@@ -16,7 +16,7 @@ Zed の補完メニューには、候補の種類（関数・変数・クラス�
 
 VSCode や RustRover、Helix などの他のエディタでは補完候補の種別をアイコンや文字で視覚的に区別できますが、Zed にはこれまでその仕組みがありませんでした。今回の更新でその要望が解消されています。
 
-## どんな機能？
+## 機能の説明
 
 補完メニューの各候補の先頭に、LSP（Language Server Protocol）が返すアイテムの種別を表す 1 文字のバッジが表示されます。バッジは現在のシンタックステーマの色に合わせて着色されます。
 
