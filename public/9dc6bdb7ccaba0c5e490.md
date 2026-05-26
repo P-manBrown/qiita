@@ -1,15 +1,14 @@
 ---
 title: 【Zed】Markdownプレビューのフォントを変更する方法
 tags:
-- ZedEditor
+  - ZedEditor
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-05-25T23:56:45+09:00'
+id: 9dc6bdb7ccaba0c5e490
 organization_url_name: null
 slide: false
 ignorePublish: false
 ---
-
 ## はじめに
 
 Zed には Markdown プレビュー機能が搭載されており、エディタ上で Markdown を編集しながらリアルタイムにプレビューを確認できます。
